@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/LevelScreen.unity
+    guid: 2ff1d964cf2132c4da1db61cfce180e8
+  - enabled: 1
+    path: Assets/Scenes/Suburb3.unity
+    guid: e6713b3a6f1d11f4a98462f508d014e3
+  - enabled: 1
+    path: Assets/Scenes/Farm1.unity
+    guid: 42721cdc51d994d4884dcabc1f29d8ea
+  - enabled: 1
+    path: Assets/Scenes/Forest2.unity
+    guid: ca12d42d0a110214f8ec5dd9f9f4b612
+  - enabled: 1
+    path: Assets/Scenes/Gulag4.unity
+    guid: cb2b3f051b9730a45a24420df161e6ca
+  - enabled: 1
+    path: Assets/Scenes/Cave5.unity
+    guid: f44840ab5ac6d384198bef02d150ae00
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: b4b446029a0a3f044bbd5729325f17a0
+  - enabled: 1
+    path: Assets/Scenes/DougAndSam.unity
+    guid: b64de953dacf9bd45a39ec0d73ba02c1
+  - enabled: 1
+    path: Assets/Scenes/SamIsMissing.unity
+    guid: 03468817590c4f8408a2b74a834447eb
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 9b2f6f557abdbe54fbd75e09df16d03e
+  - enabled: 1
+    path: Assets/Scenes/YouFoundSam.unity
+    guid: 4c2b05a0fae2c4143b27e290ee90c26b
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}

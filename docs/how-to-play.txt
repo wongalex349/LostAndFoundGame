@@ -1,0 +1,112 @@
+## How to Play / Met Technical Requirements
+
+## General
+
+### Controls (see also in Tutorial)
+
+- Move the camera around with your mouse
+- Use arrow keys to move (or WASD)
+- Press Space to jump
+- Hold shift while moving to run
+- "G" key to dig
+- "F" key to free dogs
+- "B" key to bark
+- "Esc" to pause
+
+
+## Level Select / Pausing
+
+Pause with `ESC`. Go to the level select screen and click a box to go to that level (or quit with the related button).
+
+## Tutorial
+
+Start with the tutorial to learn the main controls in the game.
+
+
+## Level 1 - Farm
+
+-This level is very simplistic in principle, but will confuse even the most experienced explorers.
+
+-Navigate the corn maze and collect bones through the journey.
+	-Press "G" on chickens and dirt piles to collect the bones.
+-Watch out for corn men as they can be spotted navigating the maze and will attack you if you come too close
+- There are friendly people, animals, and signs throughout the maps which will provide guidance.
+-You know you have reached the end of the maze when you find the wooden gates.
+	Once you have 3 bones collected, press "o" on your key board to open the gates.
+-Once you exit the maze, you will see you owner, Sam, getting taken in a car.
+	- When you approach, the car will drive away
+	- Talk to the cow and he will tell you to get in the black car
+	- Hit "Enter" while next to the car to travel to the next level
+
+
+## Level 2 - Forest
+- Interact with different characters around the map to learn more and gather hints about the environment.
+- Go towards the middle of the map and you should see a broken down car that informs you that you need a key to discover mysteries of the kidnapper's whereabouts.
+- To find the key, you need to look for a wolf somewhere in the western region of the map. The wolf will only give you the key if you trade him 15 bones.
+- There are two ways to retrieve the bones:
+	-Press "G" on every spherical objects on the ground to dig for bones.
+	-There is an NPC somewhere around the start of the map, that says that he lost his 3 cats and he will trade you 10 bones for them
+		There are three cats roaming around the entire map. Chase them around and capture them.
+- Once you get 15 bones, give them to the wolf.
+- Once you get the key from the wolf, give it to the car to win the game.
+- Keep away from the bears before they attack you and lower your health.
+
+## Level 3 - Suburb
+
+### Playing the level
+
+- You spawn in the wilderness away from the destination
+- You must find the kidnappers house to help find your owner. Use your superior smelling sense to sniff each house.
+- Navigate through oncoming traffic to find bones buried in brown mounds. Press "G" near the mounds to dig.
+- Approach each house door to sniff for 5 seconds to see if you can pick up the kidnapper's scent 
+- Watch out for the Dog catcher and the enemy dogs!
+- Find a friendly dog who will give you a hint 
+	- If you get within a certain range of the Pizza Restaurant you will get a hint to go there. The dog who lives there will give you a hint on how to get those pesky enemy dogs to leave you alone
+	- The hint is that if you first collect 5 bones the enemy dogs will respect you and leave you alone
+- Use "B" to bark at the enemy dogs to force them to retreat.
+### Meeting tech requirements
+
+- Game Feel - Win by finding the kidnappers house. Optional to collect 5 bones first. Explore the level openly a
+- Fun - Immersive level with a twist ending. Try to time it right to not get hit by the traffic. Bark at enemy dogs to compete for bones in their territory. Collect bones to earn the dog's respect. Avoid and dodge Dog catcher when exploring the city streets.
+- Character Control - Dig for bones "G" and bark at enemy dogs "B" to force them to retreat. 
+- 3D World - Terrain and trees/buildings are scaled to make the world feel immersive as well as a POV for a lost dog.
+- AI - Dog catcher uses a navmesh agent and sticks to city roads.
+
+## Level 4 - Gulag
+
+### Playing the level
+
+- You start with one key, so you can free another caged dog with 'F'.
+- To gain more keys and free more dogs, bark at guards with 'B' (while outside their POV). If hit by the bark, they will drop another key. Freeing up to three dogs gives you clues about the level and where the player's owner was taken.
+- Hitting guards with a bark causes them to have to walk back to their desk in the middle of the gulag. Once they arrive back at their desk, their POV window will return.
+- Avoid guards' POV, or else you will be 'caught' and sent back to the start of the level (keeping key/freed dog progress).
+- A few guard dogs exist in dead ends of the gulag. Getting to close will cause them to start barking at you, which will alert one of the nearest guards to walk toward your position.
+- Escape the gulag by finding the door out (against the left hand wall from the player start position). There is a transparent blue area here you can see when in that hallway you should enter to leave.
+
+### Meeting tech requirements
+
+- Game Feel - win by escaping, freeing dogs, semi-lose by getting caught
+- Fun - communicate freeing other dogs, consequence of getting caught by guard
+- Character Control - barking at guards temporarily defeats them
+- 3D World - interact with cages to free dogs; bark at guards with 3D visual of bark; POV lines of guards depending on if defeated or not; guard dogs bark at you when you get too close; audio for freeing dogs, barking, guards catching you or defeated
+- AI - guards use a navmesh to walk around (currently with static waypoints, except when nearest to a barking guard dog)
+
+## Level 5 - Cave
+
+- You begin inside a cave system
+- Your owner is trapped somewhere inside, guarded by patrolling enemies
+- You need to navigate the maze to reach your destination
+- You can approach the NPC at the start of the maze to get a hint for navigating the maze
+- If you encounter an enemy, they will speed up and pursue you. You can bark to repel them or flee to avoid their attacks.
+- You need to find the key hidden somewhere in the maze. Walk over it to pick it up
+- Once you find your owner, you will see him locked in a prison cell.
+- If you have the key, approach the door to unlock it.
+- Walk up to your owner to complete the level.
+
+### Meeting tech requirements
+
+- Game Feel - win by reuniting with your owner, lose by depleting your health. 
+- Fun - navigate a maze, flee from enemies
+- Character Control - hold shift to sprint away from enemies when fleeing
+- 3D World - Torches and cave materials give a good sense of the scene. Jail cell will only open with the required key. 
+- AI - guards use a navmesh to walk around. They will change to a "chase" state when they are near the player, and will attack if they are in range.

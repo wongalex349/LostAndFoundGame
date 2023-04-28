@@ -1,0 +1,18 @@
+## Known Problems
+
+
+  
+## Level 1 - Farm
+- Corn Men occationally get stuck on objects when chasing player
+
+## Level 2 - Forest
+- No Known problems at the moment.
+
+## Level 3 - Suburb
+- No major known problems at the moment. Sometimes the Enemy dogs get stuck behind buildings when retreating.
+
+## Level 4 - Gulag
+- Guards may have issues if the player runs directly into them (outside their POV)
+
+## Level 5 - Caves
+- No known problems at the moment.

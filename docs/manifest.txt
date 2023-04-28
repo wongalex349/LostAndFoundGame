@@ -1,0 +1,94 @@
+## Manifest
+
+### Levels
+
+- Level Select: Alex & Travis
+- Pause Menu: Alex
+- Level 1 - Farm: Travis
+- Level 2 - Forest: Alex
+- Level 3 - Suburb: Nate
+- Level 4 - Gulag: Michael
+- Level 5 - Cave: Rishi
+
+### Models & Animations
+
+- Player model Animations: Nate
+- Player model controls: Nate
+- Enemy dogs: Nate
+- Buildings/Cityscape: Nate
+- Traffic Cars/Roads: Nate
+- Farm: Travis
+- Farm animals: Travis
+- Dog Pack Models: Travis
+- Dog Pack Animations: Travis
+- Gates: Travis
+- Keys: Travis
+- Grass Flowers: Travis
+- Corn Guys: Travis
+- Farmers: Travis
+- Trees: Alex
+- Bears: Alex
+- Wolf: Alex
+- Cats: Alex
+- Car: Alex
+- Health meter: Alex
+- Bark meter: Michael
+- Gulag guard: Michael
+- Gulag decorations: Michael
+- Cave guard: Rishi
+- Dog owner: Rishi
+- Cave layout and design: Rishi
+- Torches: Rishi
+- Jail cell, jail key: Rishi
+
+### Scripts
+
+Scripts below are in `Assets/Scripts`
+
+- BarkController: Michael
+- BarkMeterController: Michael
+- BarrierRelease: Nate
+- CornMenColtroller: Travis
+- StopStartTaxi: Travis
+- FarmerTextBox: Travis
+- BearScript: Alex
+- Bone Giver: Alex
+- BoneController: Michael
+- CatCollector: Alex
+- CatScript: Alex
+- CaveGuardController: Rishi
+- DogCatcherScript: Nate
+- DirtController: Michael
+- DogOwnerController: Rishi
+- EnemyDog: Michael
+- EnemyDogScript (different than above): Nate
+- FirstLoad: Michael
+- GameStarter: Alex
+- GuardScript: Michael
+- GulagGuardDogController: Michael
+- GulagKeyController: Michael
+- GulagKeyObjectController: Michael
+- GulagUnlockController: Michael
+- HealthBar: Alex
+- JailKeyScript: Rishi
+- KidnappersHouse: Nate
+- NormalHouseScript: Nate
+- PanelButtonsSub3: Nate
+- PanelButtonsSuburbScript: Nate
+- PizzaStory: Nate
+- NextLevel: Travis
+- OpenGate: Travis
+- PanelButtons: Alex
+- PauseMenuToggle: Alex
+- SamTakenInCar: Travis
+- SoundDelay: Travis
+- SamTakenInCar: Travis
+- StoryPromptScript: Michael
+- TextBox: Alex
+
+
+Scripts below are in `Assets/Level One Assets/StarterAssets/ThirdPersonController/Scripts`
+
+- BasicRigidBodyPush: Nate
+- ThirdPersonController: Nate (with some edits by others)
+

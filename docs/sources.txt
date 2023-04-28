@@ -1,0 +1,33 @@
+## Sources
+
+### Models
+
+- Guard model & animations - Mixamo "Brian" Model - [Source](https://www.mixamo.com/)
+- Dog Pack - [Source] (https://assetstore.unity.com/packages/3d/characters/animals/mammals/dog-pack-19688)
+- Low Poly Free Houses Pack - [Source](https://assetstore.unity.com/packages/3d/props/exterior/low-poly-houses-free-pack-243926)
+- Cartoon Car - Vehicle Pack - [Source](https://assetstore.unity.com/packages/3d/vehicles/cartoon-car-vehicle-pack-180962)
+- Cartoon Truck [Source](https://sketchfab.com/3d-models/cartoon-truck-4893afa6e79a44bfbf37a6cec0c57668)
+- Guard model & animations - Mixamo "Dummy" Model - [Source](https://www.mixamo.com/)
+- Materials - World Materials Free - [Source](https://assetstore.unity.com/packages/2d/textures-materials/world-materials-free-150182)
+- Materials - Cyberpunk Materials Pack (Tiles and Concrete) - [Source](https://assetstore.unity.com/packages/2d/textures-materials/cyberpunk-material-pack-six-high-quality-materials-188067)
+- Materials - Original Bricks Textures - [Source](https://assetstore.unity.com/packages/2d/textures-materials/brick/15-original-bricks-textures-72427)
+- Palmov Island (low poly buildings pack) - [Source](https://assetstore.unity.com/packages/3d/props/exterior/low-poly-houses-free-pack-243926)
+- Door - [Source](https://assetstore.unity.com/packages/3d/props/metal-door-5397)
+- AzeriloRugs - [Source](https://assetstore.unity.com/packages/3d/props/interior/free-rug-pack-118178)
+- Furniture/Office Chair - [Source](https://assetstore.unity.com/packages/3d/props/furniture/colorable-office-chair-104874)
+- Bone clip art - [Source](https://clipartix.com/dog-bone-clipart-image-22312/)
+
+### Audio
+
+- Dog Bark - freesounds.org - [Source](https://freesound.org/people/WeakWero/sounds/612857/)
+- Enemy Dog Bark - freesounds.org - [Source](https://freesound.org/people/ivolipa/sounds/328728/)
+- Gulag Door Opening - freesounds.org - [Source](https://freesound.org/people/Sandermotions/sounds/369000/)
+- Gotcha Guard - freesounds.org - [Source](https://freesound.org/people/TheRobotRob/sounds/515187/)
+- Surprised Guard - freesounds.org - [Source](https://freesound.org/people/Samusasi/sounds/364449/)
+- 8Bit Music - 062022 - [Source](https://assetstore.unity.com/packages/audio/music/8bit-music-062022-225623)
+
+### Code
+
+- EventManager.cs - Jeff Wilson (CS6457 starter code) - [Source](https://github.gatech.edu/IMTC/CS4455_M1_Support)
+- BarkMeterController.cs - based on G. Shekhar's tutorial - [Source](http://gyanendushekhar.com/2017/03/28/radial-circular-progress-bar-unity3d/)
+- ThirdPersonController.cs - Adapted from UnityStarterAssets Package - [Source](https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-196526)
